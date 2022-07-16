@@ -330,7 +330,7 @@
 
 @media screen and (max-width: 414px) {
     .elemento1 {
-        float: left;
+        float: none;
         width: 10px;
         height: 260px;
         width: 100%;
@@ -381,7 +381,7 @@
 
 @media screen and (max-width: 393px) {
     .elemento1 {
-        float: left;
+        float: none;
         width: 10px;
         height: 260px;
         width: 100%;
@@ -426,7 +426,11 @@
     }
     .btn-1 {
         float: right;
-        margin-right: -60px;
+        margin-right: -70px;
+    }
+    .h5 {
+        margin-right: -90px;
+        margin-top: 280px;
     }
 }
 
