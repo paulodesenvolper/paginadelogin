@@ -1,0 +1,431 @@
+/* DIREITO HEADER */
+
+.elemento1 {
+    border: 1px solid #2A45B3;
+    width: 50vw;
+    height: 100vh;
+    background-color: #2A45B3;
+    float: right;
+}
+
+.elemento1 {
+    margin-right: -8;
+    margin-top: -10px;
+}
+
+.img {
+    float: right;
+    margin-right: 200px;
+    margin-top: 270px;
+    height: 500px;
+}
+
+.input-1 {
+    float: left;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+.input-2 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.name {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(230, 230, 233);
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.senha {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(230, 230, 233);
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.login {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+}
+
+.pass {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+}
+
+.h1 {
+    float: left;
+    margin-top: -200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color: #1D1D1D;
+}
+
+.h4 {
+    float: left;
+    margin-top: -150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 70px;
+    color: #797979;
+}
+
+.btn {
+    float: left;
+    margin-top: 200px;
+    margin-left: -400px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #ffff;
+    background-color: #2A45B3;
+    cursor: pointer;
+}
+
+.h5 {
+    float: left;
+    margin-top: 300px;
+    margin-left: -400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.reg {
+    color: #2A45B3;
+    cursor: pointer;
+}
+
+
+/* REPOSIVO */
+
+@media screen and (max-width: 1600px) {
+    .h1 {
+        float: none;
+    }
+    .h4 {
+        float: left;
+        margin-top: -30px;
+    }
+    .login {
+        margin-top: 100px;
+        float: none;
+    }
+    .img {
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .img {
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1468px) {
+    .img {
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .img {
+        margin-right: 80px;
+        margin-top: 200px;
+    }
+    .container {
+        margin-left: -70px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .img {
+        margin-right: 30px;
+        margin-top: 200px;
+    }
+    .container {
+        margin-left: -90px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .img {
+        margin-right: 20px;
+        margin-top: 200px;
+    }
+    .container {
+        margin-left: -120px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .img {
+        margin-right: 30px;
+        margin-top: 300px;
+        height: 400px;
+    }
+    .container {
+        margin-left: -180px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .img {
+        margin-right: 30px;
+        margin-top: 300px;
+        height: 400px;
+    }
+    .container {
+        margin-left: -180px;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 872px) {
+    .elemento1 {
+        float: left;
+        width: 10px;
+        height: 450px;
+        width: 100%;
+        border-bottom-right-radius: 300px;
+        border-bottom-left-radius: 300px;
+    }
+    .img {
+        float: left;
+        margin-top: 1px;
+        margin-left: 200px;
+        height: 400px;
+    }
+    .container {
+        float: none;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .elemento1 {
+        float: left;
+        width: 10px;
+        height: 450px;
+        width: 100%;
+        border-bottom-right-radius: 300px;
+        border-bottom-left-radius: 300px;
+    }
+    .img {
+        float: left;
+        margin-top: 1px;
+        margin-left: 200px;
+        height: 400px;
+    }
+    .container {
+        float: none;
+        margin-left: -20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .elemento1 {
+        float: left;
+        width: 10px;
+        height: 400px;
+        width: 100%;
+        border-bottom-right-radius: 250px;
+        border-bottom-left-radius: 250px;
+    }
+    .img {
+        float: none;
+        margin-top: 1px;
+        margin-left: 150px;
+        height: 350px;
+    }
+    .container {
+        float: left;
+        margin-left: -50;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .elemento1 {
+        float: left;
+        width: 10px;
+        height: 400px;
+        width: 100%;
+        border-bottom-right-radius: 250px;
+        border-bottom-left-radius: 250px;
+    }
+    .img {
+        float: none;
+        margin-top: 40px;
+        margin-left: 150px;
+        height: 300px;
+    }
+    .container {
+        float: left;
+        margin-left: -100;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .elemento1 {
+        float: left;
+        width: 10px;
+        height: 260px;
+        width: 100%;
+        border-bottom-right-radius: 250px;
+        border-bottom-left-radius: 250px;
+    }
+    .img {
+        float: none;
+        margin-top: 20px;
+        margin-left: 100px;
+        height: 200px;
+    }
+    .container {
+        float: left;
+        margin-left: -200;
+        padding: 10px;
+    }
+    .h1 {
+        font-size: 30px;
+        margin-left: 60px;
+    }
+    .h4 {
+        font-size: 20px;
+        margin-left: 90px;
+        padding: 10px;
+    }
+    .login {
+        font-size: 23px;
+        margin-left: 40px;
+    }
+    .name {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .pass {
+        font-size: 23px;
+        margin-left: 40px;
+    }
+    .senha {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .btn-1 {
+        float: right;
+        margin-right: -60px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .elemento1 {
+        float: left;
+        width: 10px;
+        height: 260px;
+        width: 100%;
+        border-bottom-right-radius: 250px;
+        border-bottom-left-radius: 250px;
+    }
+    .img {
+        float: none;
+        margin-top: 20px;
+        margin-left: 100px;
+        height: 200px;
+    }
+    .container {
+        float: left;
+        margin-left: -200;
+        padding: 10px;
+    }
+    .h1 {
+        font-size: 30px;
+        margin-left: 60px;
+    }
+    .h4 {
+        font-size: 20px;
+        margin-left: 90px;
+        padding: 10px;
+    }
+    .login {
+        font-size: 23px;
+        margin-left: 40px;
+    }
+    .name {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .pass {
+        font-size: 23px;
+        margin-left: 40px;
+    }
+    .senha {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .btn-1 {
+        float: right;
+        margin-right: -60px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .elemento1 {
+        float: left;
+        width: 10px;
+        height: 260px;
+        width: 100%;
+        border-bottom-right-radius: 250px;
+        border-bottom-left-radius: 250px;
+    }
+    .img {
+        float: none;
+        margin-top: 20px;
+        margin-left: 100px;
+        height: 200px;
+    }
+    .container {
+        float: left;
+        margin-left: -200;
+        padding: 10px;
+    }
+    .h1 {
+        font-size: 30px;
+        margin-left: 60px;
+    }
+    .h4 {
+        font-size: 20px;
+        margin-left: 90px;
+        padding: 10px;
+    }
+    .login {
+        font-size: 23px;
+        margin-left: 40px;
+    }
+    .name {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .pass {
+        font-size: 23px;
+        margin-left: 40px;
+    }
+    .senha {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .btn-1 {
+        float: right;
+        margin-right: -60px;
+    }
+}
