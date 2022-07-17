@@ -99,9 +99,13 @@
     cursor: pointer;
 }
 
+.btn:hover {
+    box-shadow: #2A45B3 10px 10px 140px 2px;
+}
+
 .h5 {
     float: left;
-    margin-top: 300px;
+    margin-top: 350px;
     margin-left: -400px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -109,6 +113,32 @@
 .reg {
     color: #2A45B3;
     cursor: pointer;
+}
+
+.redes {
+    display: flex;
+    float: left;
+    margin-top: 260px;
+    margin-left: -410px;
+    cursor: pointer;
+}
+
+.google {
+    height: 80px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.face {
+    height: 80px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.git {
+    height: 80px;
+    width: 45px;
+    margin-left: 10px;
 }
 
 
@@ -213,20 +243,87 @@
         display: none;
         visibility: hidden;
     }
-    .input-1 {}
     .input-2 {
         margin-top: 380px;
         margin-left: -400px;
     }
     .container {
         display: inline-flex;
-        margin-left: -100px;
+        margin-left: -270px;
     }
     .btn {
         margin-top: 550px;
     }
     .h5 {
+        margin-top: 690;
+    }
+    .redes {
+        margin-left: -410px;
+        float: none;
+        margin-top: 605px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .elemento1 {
+        display: none;
+        visibility: hidden;
+    }
+    .input-2 {
+        margin-top: 360px;
+        margin-left: -300px;
+    }
+    .name {
+        height: 20px;
+        width: 300px;
+        margin-left: -60px;
+    }
+    .login {
+        margin-left: -50px;
+        font-size: 20px;
+    }
+    .pass {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .senha {
+        height: 20px;
+        width: 300px;
+    }
+    .container {
+        display: inline-flex;
+        margin-left: -150px;
+    }
+    .btn {
+        margin-top: 550px;
+        margin-left: -300px;
+        height: 40px;
+        font-size: 17px;
+        width: 80px;
+    }
+    .h5 {
         margin-top: 630;
+        margin-left: -300px;
+    }
+    .h1 {
+        font-size: 30px;
+        margin-left: -30px;
+    }
+    .h4 {
+        margin-top: -19px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .btn {
+        margin-top: 530px;
+    }
+    .h5 {
+        margin-top: 690;
+    }
+    .redes {
+        margin-left: -310px;
+        float: none;
+        margin-top: 605px;
     }
 }
 
@@ -235,9 +332,8 @@
         display: none;
         visibility: hidden;
     }
-    .input-1 {}
     .input-2 {
-        margin-top: 380px;
+        margin-top: 360px;
         margin-left: -300px;
     }
     .name {
@@ -247,6 +343,11 @@
     }
     .login {
         margin-left: -50px;
+        font-size: 20px;
+    }
+    .pass {
+        font-size: 20px;
+        margin-left: 10px;
     }
     .senha {
         height: 20px;
@@ -254,14 +355,14 @@
     }
     .container {
         display: inline-flex;
-        margin-left: -100px;
+        margin-left: -150px;
     }
     .btn {
         margin-top: 550px;
         margin-left: -300px;
         height: 40px;
         font-size: 17px;
-        width: 70px;
+        width: 80px;
     }
     .h5 {
         margin-top: 630;
@@ -269,12 +370,23 @@
     }
     .h1 {
         font-size: 30px;
-        margin-left: -50px;
+        margin-left: -30px;
     }
     .h4 {
         margin-top: -19px;
-        margin-left: -20px;
+        margin-left: 10px;
         font-size: 20px;
+    }
+    .btn {
+        margin-top: 530px;
+    }
+    .h5 {
+        margin-top: 690;
+    }
+    .redes {
+        margin-left: -310px;
+        float: none;
+        margin-top: 605px;
     }
 }
 
@@ -283,11 +395,8 @@
         display: none;
         visibility: hidden;
     }
-    .input-1 {
-        margin-left: 230px;
-    }
     .input-2 {
-        margin-top: 380px;
+        margin-top: 360px;
         margin-left: -300px;
     }
     .name {
@@ -297,6 +406,11 @@
     }
     .login {
         margin-left: -50px;
+        font-size: 20px;
+    }
+    .pass {
+        font-size: 20px;
+        margin-left: 10px;
     }
     .senha {
         height: 20px;
@@ -304,14 +418,14 @@
     }
     .container {
         display: inline-flex;
-        margin-left: -100px;
+        margin-left: -170px;
     }
     .btn {
         margin-top: 550px;
         margin-left: -300px;
         height: 40px;
         font-size: 17px;
-        width: 70px;
+        width: 80px;
     }
     .h5 {
         margin-top: 630;
@@ -319,12 +433,36 @@
     }
     .h1 {
         font-size: 30px;
-        margin-left: -50px;
+        margin-left: -20px;
     }
     .h4 {
         margin-top: -19px;
-        margin-left: -20px;
+        margin-left: 10px;
         font-size: 20px;
+    }
+    .btn {
+        margin-top: 500px;
+    }
+    .h5 {
+        margin-top: 630;
+        font-size: 12px;
+    }
+    .redes {
+        margin-left: -310px;
+        float: none;
+        margin-top: 580px;
+    }
+    .google {
+        height: 30px;
+    }
+    .face {
+        height: 35px;
+        margin-left: -5px;
+        margin-top: -2px;
+    }
+    .git {
+        height: 30px;
+        margin-left: -9px;
     }
 }
 
@@ -333,54 +471,74 @@
         display: none;
         visibility: hidden;
     }
-    .input-1 {
-        margin-left: 230px;
-    }
     .input-2 {
-        margin-top: 330px;
-        margin-left: -260px;
+        margin-top: 360px;
+        margin-left: -300px;
     }
     .name {
-        height: 10px;
-        width: 260px;
+        height: 20px;
+        width: 300px;
         margin-left: -60px;
     }
     .login {
         margin-left: -50px;
         font-size: 20px;
     }
-    .senha {
-        height: 20px;
-        width: 260px;
-    }
     .pass {
         font-size: 20px;
         margin-left: 10px;
     }
+    .senha {
+        height: 20px;
+        width: 300px;
+    }
     .container {
         display: inline-flex;
-        margin-left: -100px;
+        margin-left: -170px;
     }
     .btn {
-        margin-top: 450px;
-        margin-left: -260px;
+        margin-top: 550px;
+        margin-left: -300px;
         height: 40px;
         font-size: 17px;
-        width: 70px;
+        width: 80px;
     }
     .h5 {
-        margin-top: 520;
-        margin-left: -260px;
-        font-size: 13px;
+        margin-top: 630;
+        margin-left: -300px;
     }
     .h1 {
         font-size: 30px;
-        margin-left: -50px;
+        margin-left: -20px;
     }
     .h4 {
         margin-top: -19px;
-        margin-left: -20px;
+        margin-left: 10px;
         font-size: 20px;
+    }
+    .btn {
+        margin-top: 500px;
+    }
+    .h5 {
+        margin-top: 630;
+        font-size: 12px;
+    }
+    .redes {
+        margin-left: -310px;
+        float: none;
+        margin-top: 580px;
+    }
+    .google {
+        height: 30px;
+    }
+    .face {
+        height: 35px;
+        margin-left: -5px;
+        margin-top: -2px;
+    }
+    .git {
+        height: 30px;
+        margin-left: -9px;
     }
 }
 
